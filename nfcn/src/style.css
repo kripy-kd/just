@@ -1,0 +1,176 @@
+/* import font-family for icon text: Gochi Hand */
+
+/*use gradient here to enhance yellow color*/
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ 
+}
+
+h3 {
+  margin-left: 23%;
+  margin-right: 23%;
+  color:white ;
+  font-size: 3vw;
+  text-shadow: 2px 2px 1px #00FFFF ;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  white-space: nowrap;
+  margin-bottom: 100px;
+  background:#000000;
+ 
+}
+
+/*body {
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  /*overflow: hidden;
+  text-align: center;
+} */
+
+.center {
+  overflow: hidden;
+  text-align: center;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+.button {
+  color: black;
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  display: inline-block;
+  border: 2px;
+  width: 190px;
+  padding: 10px 0px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+  background-color: #76C1D4;
+}
+.button{border-radius: 25px;}
+/*ul li
+  list-style: none;
+  /*background: #f1e5be;/*Vanilla Custard*
+  color: black;
+  font-family: "Verdana", sans-serif;
+  font-size: 1.5em;
+  display: inline-block;
+  border: 3px solid #f1e5be;
+  width: 190px;
+  padding: 10px 0px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+li a {
+  padding: 9px 10px !important;
+  margin: 1em auto; */
+}
+a:link {
+  color:red;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+
+.textstuff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF9933;
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px #333333, 0 0 16px #0d0d0d, 0 0 5px #333333;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  white-space: nowrap;
+}
+
+.letter {
+  display: inline-block;
+/*   margin-top: 0.4em; */
+}
+
+.floormap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.icons {
+  color: black;
+  border: 2px solid #f1e5be;
+  height: 100px;
+  padding: 10px;
+  width: 100px;
+}
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; */
+
+.square {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  /*cursor: pointer;*/
+}
+
+/*.hover-arrow {
+  opacity: 0;
+  z-index: 100;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  width: 15px;
+  height: 150px;
+  /*background-color: #FFFFE0;
+}
+
+.hover-image {
+  width: 100px;
+  height: 0px;
+  margin-top: 100px;
+  z-index: 100;
+  position: absolute;
+  opacity: 0;
+}
+
+.hover-text {
+  position: absolute;
+  z-index: 100;
+  width: 200px;
+  height: 0px;
+  margin-top: 100px;
+  font-family: 'Arial, Cursive';
+  background: #FFF0F5;
+  color: #000000;
+  opacity: 0;
+} */
+
+footer {
+  color: red;
+  text-shadow: 1px 1px 1px yellow, 0 0 1px red, 0 0 5px #333333;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  white-space: nowrap;
+}
+ul {
+  color:white;
+  background:#000000;
+  border-radius: 40px
+}
